@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Hicaro — Full Stack em construção</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="logo">hicaro<span>.dev</span></div>
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#ferramentas">Ferramentas</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero">
+    <div>
+      <div class="kicker accent-font">EM CONSTRUÇÃO — FULL STACK</div>
+      <h1>Aprendendo a construir<br>o <span class="glow">futuro</span> na web.</h1>
+      <p>
+        Estudante de desenvolvimento full stack pela freeCodeCamp. HTML dominado, CSS em progresso —
+        documentando cada passo enquanto construo.
+      </p>
+      <div class="cta-row">
+        <a href="#ferramentas" class="btn btn-primary">Ver ferramentas</a>
+        <a href="#contato" class="btn btn-outline">Contato</a>
+      </div>
+    </div>
+
+    <div class="photo-wrap">
+      <div class="photo-ring"></div>
+      <div class="photo-frame">
+        <img src="img/Hicaro.jpg" alt="Hicaro Cavalcanti" class="photo" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="sobre">
+    <div class="section-head">
+      <h2>Sobre mim</h2>
+      <span class="tag">// quem escreve este código</span>
+    </div>
+    <div class="about">
+      <p>
+        Estou construindo minha base em desenvolvimento full stack através da freeCodeCamp,
+        um passo de cada vez. Já finalizei HTML e agora estou mergulhando em CSS — layout,
+        responsividade e as pequenas animações que dão vida a uma interface.
+        Esse site é meu laboratório: cada seção é também um exercício.
+      </p>
+      <div class="about-stats">
+        <div class="stat"><b>HTML</b><span>Módulo concluído</span></div>
+        <div class="stat"><b>CSS</b><span>Em progresso ativo</span></div>
+        <div class="stat"><b>Próximo</b><span>JavaScript</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="ferramentas">
+    <div class="section-head">
+      <h2>Ferramentas & progresso</h2>
+      <span class="tag">04 no radar</span>
+    </div>
+    <div class="carousel-wrap">
+      <div class="carousel" id="carousel">
+        <div class="tool-card">
+          <h3>HTML</h3>
+          <div class="bar"><i style="width:90%"></i></div>
+          <span class="level">Confortável</span>
+        </div>
+        <div class="tool-card">
+          <h3>CSS</h3>
+          <div class="bar"><i class="in-progress" style="width:45%"></i></div>
+          <span class="level">Estudando agora</span>
+        </div>
+        <div class="tool-card">
+          <h3>Git & GitHub</h3>
+          <div class="bar"><i style="width:60%"></i></div>
+          <span class="level">Uso no dia a dia</span>
+        </div>
+        <div class="tool-card">
+          <h3>VS Code</h3>
+          <div class="bar"><i style="width:80%"></i></div>
+          <span class="level">Ambiente principal</span>
+        </div>
+      </div>
+      <div class="carousel-nav">
+        <button onclick="scrollCarousel(-1)" aria-label="Anterior">←</button>
+        <button onclick="scrollCarousel(1)" aria-label="Próximo">→</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contato">
+    <div class="contact">
+      <div>
+        <h2>Vamos trocar uma ideia?</h2>
+        <p>Ainda estudando, mas sempre aberto a feedback, parcerias de estudo ou oportunidades.</p>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:hicarodev@outlook.com" class="btn btn-primary">E-mail</a>
+        <a href="https://github.com/HRCOL7" target="_blank" class="btn btn-outline">GitHub</a>
+        <a href="https://www.linkedin.com/in/hicaro-cavalcanti-29447643b/" target="_blank" class="btn btn-outline">LinkedIn</a>
+        <a href="https://www.instagram.com/hicaro.dev/" target="_blank" class="btn btn-outline">Instagram</a>
+        <a href="https://wa.me/557991328598" target="_blank" class="btn btn-outline">WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>© 2026 Hicaro — construído estudando CSS, um bloco de cada vez.</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
